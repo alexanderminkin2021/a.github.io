@@ -11,4 +11,10 @@ li em {
 h1 + p {
     font-size: 200%;
 }
-    
+.special {
+  color: red;
+}
+
+p {
+  color: blue;
+} 
