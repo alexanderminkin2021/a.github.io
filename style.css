@@ -12,9 +12,39 @@ h1 + p {
     font-size: 200%;
 }
 .special {
-  color: rgb(0, 255, 17);
+  color: rgb(255, 0, 30);
 }
 
-.special p:first-child{
+main p+.special{
   color: blue;
 } 
+
+
+body {
+  color: green;
+}
+        
+.my-class-1 a {
+  color: inherit;
+}
+        
+.my-class-2 a {
+  color: initial;
+}
+        
+.my-class-3 a {
+  color: unset;
+}
+  
+a { color: red; }
+blockquote {
+  background-color: red;
+  border: 2px solid green;
+}
+      
+.fix-this {
+  all: unset;
+  background-color: red;
+  font-size: large;
+}
+  
